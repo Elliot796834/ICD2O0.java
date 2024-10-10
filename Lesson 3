@@ -1,0 +1,28 @@
+// My prediction
+
+System.out.println("Welcome to Sanjay's Koala Party!");
+System.out.print("It's possible Sanjay can distribute " + 12);
+System.out.println(" cookies for each bowl.");
+
+
+
+
+// THe output will be 
+
+Welcome to Sanjay's Koala Party!
+It's possible Sanjay can distribute 12 cookies for each bowl.
+
+
+// Modified Code
+
+int bowls = 6;
+int cookies = 144;
+System.out.println("Sanjay has " + bowls + " bowls for " + cookies + " cookies.");
+
+
+// Cauculation for cookes in bowl
+
+int bowls = 6;
+int cookies = 144;
+int cookiesPerBowl = cookies / bowls;
+System.out.println("The number of cookies per bowl is: " + cookiesPerBowl);
