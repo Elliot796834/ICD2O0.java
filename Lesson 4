@@ -1,0 +1,22 @@
+//Assigning a Varible
+
+int amount = 24;
+System.out.print(amount);
+System.out.println("Two dozen is: " + amount);
+
+
+//Multipulcation Assigment
+
+int amount = 7 * 4;
+System.out.println("forty-two is: " + amount);
+
+// output should be 
+
+forty-two is: 28
+
+//Both maths
+
+int a = 8; 
+int b = 3; 
+System.out.println(a * b); // Output: 24
+System.out.println(a / b); // Output: 2
