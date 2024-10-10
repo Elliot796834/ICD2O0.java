@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class UserCalculation {
+    public static void main(String[] args) {
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Step 1: Ask for the user's year of birth
+        System.out.print("Enter your year of birth: ");
+        int birthYear = scanner.nextInt();
+
+        // Step 2: Ask for the user's age
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        // Step 3: Double the birth year
+        int doubledBirthYear = birthYear * 2;
+
+        // Step 4: Add 5
+        int addFive = doubledBirthYear + 5;
+
+        // Step 5: Multiply by 50
+        int multiplyByFifty = addFive * 50;
+
+        // Step 6: Add the user's age
+        int addAge = multiplyByFifty + age;
+
+        // Step 7: Subtract 250
+        int subtractTwoHundredFifty = addAge - 250;
+
+        // Step 8: Divide by 100
+        double result = (double) subtractTwoHundredFifty / 100;
+
+        // Output the result with interpretation
+        System.out.println("The final result is: " + result);
+        System.out.println("This number represents a transformed calculation based on your birth year and age.");
+
+        // Close the scanner
+        scanner.close();
+    }
+}
