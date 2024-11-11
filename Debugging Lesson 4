@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+    // Declare and initialize the variable
+    String lastMonth = "August";
+
+    // Use printf for formatted output and the correct specifier for strings
+    System.out.printf("The last month was %s.\n", lastMonth);
+
+    //////////// End of tasks /////////////////////
+  }
+}
