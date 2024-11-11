@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class IntegerInputExample {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in); // Open for keyboard input
+        System.out.print("Please enter an integer: "); // Clear prompt
+
+        try {
+            int number = kb.nextInt();
+            System.out.println("12 " + number);
+        } catch (Exception e) {
+            System.out.println("Invalid input. Displaying default: 12");
+        } 
+        kb.close();
+    }
+}
