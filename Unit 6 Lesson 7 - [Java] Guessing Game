@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Calc {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int secretNumber = 7; // The number to guess
+        int guess = 0;
+        int attempts = 0;
+        final int MAX_ATTEMPTS = 5;
+
+        while (guess != secretNumber && attempts < MAX_ATTEMPTS) {
+            System.out.print("Guess a number between 1 and 10: ");
+            guess = scanner.nextInt();
+            attempts++;
+
+            if (guess == secretNumber) {
+                System.out.println("Right answer!");
+            } else {
+                System.out.println("Incorrect");
+            }
+        }
+
+        if (attempts == MAX_ATTEMPTS && guess != secretNumber) {
+            System.out.println("You've used all your attempts. The correct number was " + secretNumber);
+        }
+
+        scanner.close();
+    }
+}
