@@ -1,0 +1,11 @@
+class scope {
+    // Declare 's' globally
+    static String s; 
+
+    public static void main(String[] args) {
+        s = "this set of brackets defines a scope";
+
+        // Now 's' is accessible here
+        System.out.println(s);
+    } // closes main function
+} // closes class Scope
