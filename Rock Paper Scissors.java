@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class scope {
+public class RockPaper {
     public static void main(String[] args) {
         // Initialize the scanner to read input from the user
         Scanner scanner = new Scanner(System.in);
